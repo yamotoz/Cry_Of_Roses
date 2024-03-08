@@ -13,7 +13,7 @@ ataques na web tanto de fuzzing quanto de enumeração de diretorios e wordlists
 .
 .
 .
-não me responsabilizo pelo mal uso do programa. Esse é um script para uso legal e para se estudar a area de programação e pentest, jamais use as ferramentas instaladas para prejudicar,destruir,adulterar,manchar ou inferiorizar a imagem de ninguem
+Não me responsabilizo pelo mal uso do programa. Esse é um script para uso legal e para se estudar a area de programação e pentest, jamais use as ferramentas instaladas para prejudicar,destruir,adulterar,manchar ou inferiorizar a imagem de ninguem
 .
 .
 .
