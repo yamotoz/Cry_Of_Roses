@@ -86,8 +86,9 @@ echo "                                  1####                   111#11#1        
 sleep 0.2;   
 echo "                                  ##1                                      ";  
 sleep 0.3;  
-
-
+var = "";
+read -p "deseja atualizar o sistema?(sim ou y)" var;
+if [ "$var" == "sim" ] || [ "$var" == "y" ] ; then 
 echo -e "\e[32m █▀▀█ ▀▀█▀▀ █──█ █▀▀█ █── ─▀─ ▀▀█ █▀▀█ █▀▀▄ █▀▀▄ █▀▀█ 　 █▀▀ ─▀─ █▀▀ ▀▀█▀▀ █▀▀ █▀▄▀█ █▀▀█"; 
 echo " █▄▄█ ──█── █──█ █▄▄█ █── ▀█▀ ▄▀─ █▄▄█ █──█ █──█ █──█ 　 ▀▀█ ▀█▀ ▀▀█ ──█── █▀▀ █─▀─█ █▄▄█"; 
 echo " ▀──▀ ──▀── ─▀▀▀ ▀──▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀──▀ ▀──▀ ▀▀▀─ ▀▀▀▀ 　 ▀▀▀ ▀▀▀ ▀▀▀ ──▀── ▀▀▀ ▀───▀ ▀──▀";
@@ -99,6 +100,10 @@ echo ".";
 sleep 0.5;
 echo ".";
 sleep 0.5;
+else
+echo "NADA FOI ATUALIZADO"
+fi 
+
 echo "criando as pastas vuln, anonimato, domain, ozint, fish, wordlist";
 mkdir /root/vuln anonimato domain ozint phish wordlist fuzz;
 echo ".";
@@ -259,6 +264,9 @@ echo "~";
 sleep 0.5;
 echo "~"
 sleep 0.5;
+cd /root/go/bin;
+mv * /bin;
+cd /root;
 apt-get autoremove -y;
 echo -e "\e[32m██╗░░██╗░█████╗░░█████╗░██╗░░██╗  ████████╗██╗███╗░░░███╗███████╗  ███╗░░██╗░█████╗░░██╗░░░░░░░██╗";
 echo "██║░░██║██╔══██╗██╔══██╗██║░██╔╝  ╚══██╔══╝██║████╗░████║██╔════╝  ████╗░██║██╔══██╗░██║░░██╗░░██║";
