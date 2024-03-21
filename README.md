@@ -1,28 +1,26 @@
-Instalação
+Installation
 $ bash Cry_of_Roses
 ===============================
-OBS: instalar diretamente no root.
+NOTE: install directly on root.
 
-A cerca do script
+About the script
 .
 .
 .
-Esse é um script que fiz para uso pessoal e a para divulgar na comunidade, ele ira instalar as melhores ferramentas para 
-ataques na web tanto de fuzzing quanto de enumeração de diretorios e wordlists
-.
-.
-.
-.
-Não me responsabilizo pelo mal uso do programa. Esse é um script para uso legal e para se estudar a area de programação e pentest, jamais use as ferramentas instaladas para prejudicar,destruir,adulterar,manchar ou inferiorizar a imagem de ninguem
+This is a script that I made for personal use and to share with the community, it will install the best tools for
+web attacks both fuzzing and directory enumeration and wordlists
 .
 .
 .
 .
-Um grande beijo e um grande abraço para voces e obrigado por desfrutar do meu script.
+I do not take responsibility for the misuse of the program. This is a script for legal use and to study the programming and pentest area, never use the installed tools to harm, destroy, adulterate, tarnish or belittle anyone's image
 .
+.
+.
+.
+A big kiss and a big hug for you and thank you for enjoying my script.
 .
 .
 .
 .
 by yamotoz.
-
