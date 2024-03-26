@@ -149,12 +149,12 @@ echo "                              since 2024/03/08                            
 sleep 0.5;
 
 echo -e "\e[37m█ █▄░█ █ █▀▀ █ ▄▀█ █▄░█ █▀▄ █▀█   █ █▄░█ █▀ ▀█▀ ▄▀█ █░░ ▄▀█ █▀▀ ▄▀█ █▀█";
-echo " █ █░▀█ █ █▄▄ █ █▀█ █░▀█ █▄▀ █▄█   █ █░▀█ ▄█ ░█░ █▀█ █▄▄ █▀█ █▄▄ █▀█ █▄█";
-echo".";
+echo         " █ █░▀█ █ █▄▄ █ █▀█ █░▀█ █▄▀ █▄█   █ █░▀█ ▄█ ░█░ █▀█ █▄▄ █▀█ █▄▄ █▀█ █▄█";
+echo ".";
 sleep 0.5;
-echo".";
+echo ".";
 sleep 0.5;
-echo".";
+echo ".";
 sleep 0.5;
 cd /root/domain;
 
@@ -253,7 +253,7 @@ sleep 0.5;
 cd /root/wordlist;
 echo "█░█░█ █▀█ █▀█ █▀▄ █░░ █ █▀ ▀█▀";
 echo "▀▄▀▄▀ █▄█ █▀▄ █▄▀ █▄▄ █ ▄█ ░█░";
-mkdir gf && cd gf && wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/sqli.json && wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/lfi.json && wget https://github.com/1ndianl33t/Gf-Patterns/blob/master/ssrf.json && wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/redirect.json && wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/interestingsubs.json && wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/idor.json && wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/xss.json && cd /root/wordlist && mkdir dirb && cd dirb && wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/URLs/urls-wordpress-3.3.1.txt && wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/directory-list-2.3-big.txt && cd /root/wordlist; gzip -d /usr/share/wordlists/rockyou.txt.gz; cp /usr/share/wordlists/rockyou.txt /root/wordlist;
+mkdir gf && cd gf && wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/sqli.json && wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/lfi.json && wget https://github.com/1ndianl33t/Gf-Patterns/blob/master/ssrf.json && wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/redirect.json && wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/idor.json && cd /root/wordlist && mkdir dirb && cd dirb && wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/URLs/urls-wordpress-3.3.1.txt && wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/directory-list-2.3-big.txt && cd /root/wordlist; gzip -d /usr/share/wordlists/rockyou.txt.gz; cp /usr/share/wordlists/rockyou.txt /root/wordlist;
 sleep 2;
 echo "█▀▀ █ █▄░█ █ █▀ █░█";
 echo "█▀░ █ █░▀█ █ ▄█ █▀█";
@@ -277,6 +277,11 @@ wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/sqli.json;
 chmod +x sqli.json;
 wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/idor.json;
 chmod +x idor.json;
+wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/interestingsubs.json;
+chmod +x interestingsubs.json;
+wget https://raw.githubusercontent.com/1ndianl33t/Gf-Patterns/master/xss.json;
+chmod +x xss.json;
+
 cd ..;
 apt-get autoremove -y;
 clear;
