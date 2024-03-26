@@ -161,7 +161,7 @@ cd /root/domain;
 echo " █▀▄ █▀█ █▀▄▀█ ▄▀█ █ █▄░█";
 echo " █▄▀ █▄█ █░▀░█ █▀█ █ █░▀█";
 sleep 1;
-apt-get install golang -y && git clone https://github.com/21y4d/nmapAutomator.git && apt-get install subfinder && apt-get upgrade subfinder && touch subfinder-d aquatone gf gau subzy && go install -v github.com/LukaSikic/subzy@latest && go install github.com/lc/gau/v2/cmd/gau@latest && apt-get install chromium && wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip -y && unzip aquatone_linux_amd64_1.7.0.zip && rm -rf aquatone_linux_amd64_1.7.0.zip LICENSE.txt README.md && mkdir dns && cd /root/domain/dns && git clone https://github.com/darkoperator/dnsrecon && touch dnsenum enum4linux_SMB;
+apt-get install golang -y && git clone https://github.com/21y4d/nmapAutomator.git && apt-get install subfinder && apt-get upgrade subfinder && touch subfinder-d aquatone gf gau subzy && go install -v github.com/LukaSikic/subzy@latest && go install github.com/lc/gau/v2/cmd/gau@latest && apt-get install chromium -y && wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip -y && unzip aquatone_linux_amd64_1.7.0.zip && rm -rf aquatone_linux_amd64_1.7.0.zip LICENSE.txt README.md && mkdir dns && cd /root/domain/dns && git clone https://github.com/darkoperator/dnsrecon && touch dnsenum enum4linux_SMB;
 sleep 2;
 echo "█▀▀ █ █▄░█ █ █▀ █░█";
 echo "█▀░ █ █░▀█ █ ▄█ █▀█";
