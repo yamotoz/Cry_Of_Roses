@@ -178,7 +178,7 @@ echo "█▄─█─▄█▄─██─▄█▄─▄███▄─▀█�
 echo "██▄▀▄███─██─███─██▀██─█▄▀─██";
 echo "▀▀▀▄▀▀▀▀▄▄▄▄▀▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀";
 sleep 1;
-git clone https://github.com/skavngr/rapidscan.git && apt-get upgrade nikto && git clone https://github.com/lobuhi/byp4xx && go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest && go install github.com/hahwul/dalfox/v2@latest && git clone https://github.com/jakeelong/sniper.git && cd sniper; sniper -u; cd /root/vuln && git clone https://github.com/anouarbensaad/VulnX.git && cd VulnX && chmod +x install.sh && bash install.sh  && cd .. && touch dalfox nuclei zaproxy wpscan sqlmap; 
+git clone https://github.com/skavngr/rapidscan.git && cd rapidscan && mv rapidscan.py /bin && cd /root/vuln && apt-get upgrade nikto && git clone https://github.com/lobuhi/byp4xx && go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest && go install github.com/hahwul/dalfox/v2@latest && git clone https://github.com/jakeelong/sniper.git && cd sniper; sniper -u; cd /root/vuln && git clone https://github.com/anouarbensaad/VulnX.git && cd VulnX && chmod +x install.sh && bash install.sh  && cd .. && touch dalfox nuclei zaproxy wpscan sqlmap; 
 sleep 2;
 echo "█▀▀ █ █▄░█ █ █▀ █░█";
 echo "█▀░ █ █░▀█ █ ▄█ █▀█";
