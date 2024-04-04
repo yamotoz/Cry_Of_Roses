@@ -103,7 +103,7 @@ sleep 0.5;
 else
 echo "NADA FOI ATUALIZADO"
 fi 
-
+cd /root;
 echo "criando as pastas vuln, anonimato, domain, ozint, fish, wordlist";
 mkdir /root/vuln anonimato domain ozint phish wordlist fuzz;
 echo ".";
