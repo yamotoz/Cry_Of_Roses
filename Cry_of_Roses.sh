@@ -239,7 +239,7 @@ cd /root/fuzz;
 echo"█▀▀ █──█ ▀▀█ ▀▀█" ;
 echo"█▀▀ █──█ ▄▀─ ▄▀─";
 echo"▀── ─▀▀▀ ▀▀▀ ▀▀▀";
-git clone https://github.com/0xKayala/ParamSpider && git clone https://github.com/xmendez/wfuzz && cd wfuzz && pip install wfuzz && mkdir wordFUZZ && cd wordFUZZ && wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/LFI/LFI-gracefulsecurity-windows.txt && wget https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/LFI/LFI-etc-files-of-all-linux-packages.txt && wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/403/403.md;
+go install github.com/tomnomnom/gf@latest && git clone https://github.com/0xKayala/ParamSpider && git clone https://github.com/xmendez/wfuzz && cd wfuzz && pip install wfuzz && mkdir wordFUZZ && cd wordFUZZ && wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/LFI/LFI-gracefulsecurity-windows.txt && wget https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/LFI/LFI-etc-files-of-all-linux-packages.txt && wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/403/403.md;
 sleep 2;
 echo "█▀▀ █ █▄░█ █ █▀ █░█";
 echo "█▀░ █ █░▀█ █ ▄█ █▀█";
