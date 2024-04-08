@@ -195,6 +195,7 @@ echo "█▄─█─▄█▄─██─▄█▄─▄███▄─▀█�
 echo "██▄▀▄███─██─███─██▀██─█▄▀─██";
 echo "▀▀▀▄▀▀▀▀▄▄▄▄▀▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀";
 sleep 1;
+pip3 install wapiti;
 git clone https://github.com/skavngr/rapidscan.git; 
 cd rapidscan; 
 mv rapidscan.py /bin; 
@@ -212,7 +213,7 @@ cd VulnX;
 chmod +x install.sh; 
 bash install.sh; 
 cd .. ; 
-touch dalfox nuclei zaproxy wpscan sqlmap; 
+touch dalfox nuclei zaproxy wpscan wapiti sqlmap; 
 sleep 2;
 echo "█▀▀ █ █▄░█ █ █▀ █░█";
 echo "█▀░ █ █░▀█ █ ▄█ █▀█";
