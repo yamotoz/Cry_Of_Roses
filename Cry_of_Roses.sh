@@ -162,6 +162,7 @@ echo " █▀▄ █▀█ █▀▄▀█ ▄▀█ █ █▄░█"
 echo " █▄▀ █▄█ █░▀░█ █▀█ █ █░▀█";
 sleep 1;
 apt-get install golang -y; 
+apt install subjack;
 git clone https://github.com/21y4d/nmapAutomator.git; 
 apt-get install subfinder; 
 apt-get upgrade subfinder; 
