@@ -163,6 +163,7 @@ echo " █▄▀ █▄█ █░▀░█ █▀█ █ █░▀█"
 sleep 1;
 apt-get install golang -y; 
 apt install subjack;
+pip3 install uro;
 git clone https://github.com/21y4d/nmapAutomator.git; 
 apt-get install subfinder; 
 apt-get upgrade subfinder; 
