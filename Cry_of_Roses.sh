@@ -164,6 +164,7 @@ sleep 1;
 apt-get install golang -y; 
 apt install subjack;
 pip3 install uro;
+go install github.com/Emoe/kxss@latest;
 git clone https://github.com/21y4d/nmapAutomator.git; 
 apt-get install subfinder; 
 apt-get upgrade subfinder; 
