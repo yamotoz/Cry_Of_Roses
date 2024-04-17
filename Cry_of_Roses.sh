@@ -200,6 +200,13 @@ echo "██▄▀▄███─██─███─██▀██─█▄�
 echo "▀▀▀▄▀▀▀▀▄▄▄▄▀▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀";
 sleep 1;
 pip3 install wapiti;
+git clone https://github.com/robotshell/magicRecon;
+cd magicRecon;
+chmod +x install.sh;
+./install.sh;
+xdotool type "y";
+xdotool key Return;
+cd ..;
 git clone https://github.com/skavngr/rapidscan.git; 
 cd rapidscan; 
 mv rapidscan.py /bin; 
