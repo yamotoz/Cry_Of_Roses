@@ -1,4 +1,4 @@
-/#!/bin/bash
+#!/bin/bash
 
 echo -e " \e[31m                                                            111###111   ";  
 sleep 0.2;     
@@ -163,6 +163,7 @@ echo " █▄▀ █▄█ █░▀░█ █▀█ █ █░▀█"
 sleep 1;
 apt-get install golang -y; 
 apt install subjack;
+go install github.com/tomnomnom/waybackurls@latest;
 go install github.com/projectdiscovery/katana/cmd/katana@latest;
 pip3 install uro;
 go install github.com/projectdiscovery/katana/cmd/katana@latest;
