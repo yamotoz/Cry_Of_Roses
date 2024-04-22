@@ -163,6 +163,7 @@ echo " █▄▀ █▄█ █░▀░█ █▀█ █ █░▀█"
 sleep 1;
 apt-get install golang -y; 
 apt install subjack;
+go install github.com/projectdiscovery/katana/cmd/katana@latest;
 pip3 install uro;
 go install github.com/projectdiscovery/katana/cmd/katana@latest;
 go install github.com/Emoe/kxss@latest;
