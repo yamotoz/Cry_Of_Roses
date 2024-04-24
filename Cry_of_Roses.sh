@@ -101,7 +101,7 @@ sleep 0.5;
 echo ".";
 sleep 0.5;
 else
-echo "NADA FOI ATUALIZADO"
+echo "NADA FOI ATUALIZADO";
 fi 
 cd /root;
 echo "criando as pastas vuln, anonimato, domain, ozint, fish, wordlist";
