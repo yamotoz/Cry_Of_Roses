@@ -341,8 +341,8 @@ echo "~";
 sleep 0.5;
 echo "~"
 sleep 0.5;
-#cd /root/go/bin;
-#mv * /bin;
+cd /root/go/bin;
+mv * /bin;
 cd /root;
 mkdir .gf;
 cd  .gf;
