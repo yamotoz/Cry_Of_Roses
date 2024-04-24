@@ -171,7 +171,7 @@ go install github.com/projectdiscovery/katana/cmd/katana@latest;
 go install github.com/Emoe/kxss@latest;
 git clone https://github.com/21y4d/nmapAutomator.git; 
 apt-get install subfinder; 
-apt-get upgrade subfinder; 
+apt-get upgrade subfinder -y; 
 touch subfinder-d aquatone gf gau subzy;
 go install -v github.com/LukaSikic/subzy@latest; 
 go install github.com/lc/gau/v2/cmd/gau@latest; 
