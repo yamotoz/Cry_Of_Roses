@@ -222,6 +222,8 @@ git clone https://github.com/jakeelong/sniper.git;
 cd sniper; 
 bash install.sh;
 sniper -u; 
+xdotool type "y";
+xdotool key Return;
 cd /root/vuln; 
 git clone https://github.com/anouarbensaad/VulnX.git; 
 cd VulnX;  
