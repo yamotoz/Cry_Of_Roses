@@ -165,6 +165,7 @@ apt-get install golang -y;
 apt install subjack;
 go install -v github.com/tomnomnom/anew@latest;
 go install github.com/tomnomnom/waybackurls@latest;
+go install github.com/trap-bytes/403jump@latest;
 go install github.com/projectdiscovery/katana/cmd/katana@latest;
 pip3 install uro;
 go install github.com/projectdiscovery/katana/cmd/katana@latest;
