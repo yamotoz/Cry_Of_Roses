@@ -367,7 +367,7 @@ cd ..;
 apt-get autoremove -y;
 apt-get autoclean -y;
 clear;
-kdotool key ctrl+shift+t;
+xdotool key ctrl+shift+t;
 sleep 1;
 xdotool type "cd Documents";
 xdotool key Return;
