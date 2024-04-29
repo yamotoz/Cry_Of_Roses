@@ -55,7 +55,7 @@ bash Cry_of_Roses.sh
 
 
 
-## vulnerabilidades
+## 🦂 vulnerabilidades
 - [x]  burpsuite
 - [x]  nessus
 - [x]  rapidscan
