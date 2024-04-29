@@ -1,7 +1,7 @@
 
 
 
-<img src="rose cry.jpg">
+<img src="src/rose cry.jpg">
 
 
 ## Installation
