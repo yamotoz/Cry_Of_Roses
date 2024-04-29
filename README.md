@@ -1,9 +1,9 @@
+
+
+
+<img src="rose cry.jpg">
+
 ## Installation
-
-
-<img src="https://img.shields.io/badge/Python-3.8-blue">
-
-
 $ bash Cry_of_Roses
 ===============================
 
