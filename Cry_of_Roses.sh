@@ -273,12 +273,16 @@ cd /root/ozint;
 echo "██████████████████████████████";
 echo "█─▄▄─█░▄▄░▄█▄─▄█▄─▀█▄─▄█─▄─▄─█";
 echo "█─██─██▀▄█▀██─███─█▄▀─████─███";
-echo "▀▄▄▄▄▀▄▄▄▄▄▀▄▄▄▀▄▄▄▀▀▄▄▀▀▄▄▄▀▀";
-git clone https://github.com/jaykali/maskphish; 
+echo "▀▄▄▄▄▀▄▄▄▄▄▀▄▄▄▀▄▄▄▀▀▄▄▀▀▄▄▄▀▀"; 
 git clone https://github.com/thewhiteh4t/seeker;  
 git clone  https://github.com/Lucksi/Mr.Holmes; 
 git clone https://github.com/exiftool/exiftool; 
 git clone https://github.com/techchipnet/CamPhish;
+git clone https://github.com/GONZOsint/geowifi;
+cd geowifi;
+python3 -m pip install -r requirements.txt;
+docker build -t geowifi:latest;
+cd ..;
 sleep 2;
 echo "█▀▀ █ █▄░█ █ █▀ █░█";
 echo "█▀░ █ █░▀█ █ ▄█ █▀█";
@@ -293,13 +297,13 @@ cd /root/phish;
 echo "█▄─▄▄─█─█─█▄─▄█─▄▄▄▄█─█─█"
 echo "██─▄▄▄█─▄─██─██▄▄▄▄─█─▄─█"
 echo "▀▄▄▄▀▀▀▄▀▄▀▄▄▄▀▄▄▄▄▄▀▄▀▄▀"
-git clone https://github.com/htr-tech/zphisher;
-git clone https://github.com/jaykali/maskphish;  
-git clone https://github.com/thewhiteh4t/seeker;  
-git clone  https://github.com/Lucksi/Mr.Holmes;  
-git clone https://github.com/techchipnet/CamPhish;
+git clone https://github.com/htr-tech/zphisher;  
 curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.sh | sudo bash -s;
 touch rst;
+git clone https://github.com/JoelGMSec/EvilnoVNC;
+cd EvilnoVNC ; sudo chown -R 103 Downloads;
+sudo docker build -t joelgmsec/evilnovnc;
+cd ..;
 sleep 2;
 echo "█▀▀ █ █▄░█ █ █▀ █░█";
 echo "█▀░ █ █░▀█ █ ▄█ █▀█";
