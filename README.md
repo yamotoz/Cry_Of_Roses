@@ -2,10 +2,11 @@
 
 
 <img src="rose cry.jpg">
+<img src="SH-Bash_Shell_Script-file-program-512.webp">
 
 ## Installation
-$ bash Cry_of_Roses
-===============================
+ type: bash Cry_of_Roses.sh
+
 
 
 ## NOTE: install directly on root.
