@@ -27,77 +27,74 @@ A big kiss and a big hug for you and thank you for enjoying my script.
 by yamotoz.
 
 
-atulizar sistema:   
-apt-get update -y && apt-get upgrade -y && apt update -y && apt upgrade -y && apt-get dist-upgrade -y && apt-get autoclean -y && apt-get autoremove -y
+
+
+## 👺subdomain/domain 
+- [x]  nmapAutomator
+- [x]  subfinder      subfinder -d domain
+- [x]  subzy                    subzy run --targets arquivo.txt
+- [x]  gau     
+- [x]  aquatone
+- [x]  dirb (ja vem instalado, baixe as wordlist no site seclist)
+- [x]  waybackurls
+- [x]  katana
+1- [x] httpx
+1- [x] kxss 
+1- [x] 403 jump
+1- [x] anew 
+1- [x] subjack
+1- [x] uro 
 
 
 
-**👺subdomain/domain** 
-2  nmapAutomator
-3  subfinder      subfinder -d domain
-4  subzy                    subzy run --targets arquivo.txt
-5  gau     
-6  aquatone
-7  dirb (ja vem instalado, baixe as wordlist no site seclist)
-8  waybackurls
-9  katana
-10 httpx
-11 kxss 
-12 403 jump
-13 anew 
-14 subjack
-15 uro 
+## vulnerabilidades
+- [x]  burpsuite
+- [x]  nessus
+- [x]  rapidscan
+- [x]  nikto
+- [x]  nmap vuln
+- [x]  https://github.com/lobuhi/byp4xx
+- [x]  dalfox
+- [x]  nuclei
+- [x] site do pentest-tools.com
+- [x] hydra
+- [x] jonh the ripper
+- [x] Sniper(jakeelong)
+- [x] wapiti
+- [x] magic recon
+- [x] VulneX
+- [x] Log sensor
 
 
+## ♠️FUZZ
+- [x]  https://github.com/devanshbatham/ParamSpider     
+- [x]  https://github.com/xmendez/wfuzz           wfuzz -w wordlist -c link
+- [x]  more wordlists
 
-👾vulnerabilidades
-1  burpsuite
-2  nessus
-3  rapidscan
-4  nikto
-5  nmap vuln
-6  https://github.com/lobuhi/byp4xx
-7  dalfox
-8  nuclei
-9 site do pentest-tools.com
-10 hydra
-11 jonh the ripper
-12 Sniper(jakeelong)
-13 wapiti
-14 magic recon
-15 VulneX
-16 Log sensor
+## 👩‍💻 Ozint
+- [x] seeker
+- [x] mr.holmes
+- [x] exiftool
+- [x] camphish
+- [x] geowifi
+
+## 🎨 phish
+- [x] zphisher
+- [x] raven-storm (Ddos)
+- [x] evil no vnc
 
 
-♠️FUZZ
-1  https://github.com/devanshbatham/ParamSpider     
-2  https://github.com/xmendez/wfuzz           wfuzz -w wordlist -c link
-3  more wordlists
-
-👩‍💻 Ozint
-1 seeker
-2 mr.holmes
-3 exiftool
-4 camphish
-5 geowifi
-
-🎨 phish
-1 zphisher
-2 raven-storm (Ddos)
-3 evil no vnc
+## 📖 Wordlist
+- [x] seclist
+- [x] dirb medium
+- [x] rockyou 
+- [x] discover wordlist
 
 
-📖 Wordlist
-1 seclist
-2 dirb medium
-3 rockyou 
-4 discover wordlist
-
-
-🕵️‍♂️anonimato
-1  mudança de proxy no firefox e proton vpn ou whonix ou tambem vpn-book, extensão urban-vpn
-2  Auto_Tor_IP_changer
-3  whoami-project
+## 🕵️‍♂️anonimato
+- [x]  mudança de proxy no firefox e proton vpn ou whonix ou tambem vpn-book, extensão urban-vpn
+- [x]  Auto_Tor_IP_changer
+- [x]  whoami-project
 
 
      __ ,                        __ ,                 
