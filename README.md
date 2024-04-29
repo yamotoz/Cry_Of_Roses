@@ -11,10 +11,12 @@
 ```bash
   cd Cry_Of_Roses
 ```  
-  chmod +x Cry_Of_Roses
-  ```bash
-  bash Cry_of_Roses.sh
-  ```
+ ```bash
+chmod +x Cry_Of_Roses
+ ```
+ ```bash
+bash Cry_of_Roses.sh
+ ```
 
 
 
