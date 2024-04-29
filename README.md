@@ -2,7 +2,7 @@
 
 
 <img src="rose cry.jpg">
-<img src="shell.png">
+
 
 ## Installation
  type: bash Cry_of_Roses.sh
