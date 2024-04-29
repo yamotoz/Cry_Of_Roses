@@ -43,7 +43,7 @@ bash Cry_of_Roses.sh
 - [x]  subzy                    subzy run --targets arquivo.txt
 - [x]  gau     
 - [x]  aquatone
-- [x]  dirb (ja vem instalado, baixe as wordlist no site seclist)
+- [x]  dirb ("It comes pre-installed; download the wordlists from the Seclist website.")
 - [x]  waybackurls
 - [x]  katana
 1- [x] httpx
@@ -100,7 +100,7 @@ bash Cry_of_Roses.sh
 
 
 ## 🕵️‍♂️anonimato
-- [x]  mudança de proxy no firefox e proton vpn ou whonix ou tambem vpn-book, extensão urban-vpn
+- [x]  To change the proxy settings in Firefox, you can use ProtonVPN, Whonix, VPNBook, or the Urban VPN extension.
 - [x]  Auto_Tor_IP_changer
 - [x]  whoami-project
 

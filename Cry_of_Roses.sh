@@ -101,10 +101,10 @@ sleep 0.5;
 echo ".";
 sleep 0.5;
 else
-echo "NADA FOI ATUALIZADO";
+echo "FUck 0ff";
 fi 
 insta="";
-read -p "Posso começar a instalação?????? y/n:" insta;
+read -p "Can I begin the installation?????? y/n:" insta;
 if [ "$insta" = "y" ] || [ "$insta" = "Y" ]; then
 cd /root;
 echo "criando as pastas vuln, anonimato, domain, ozint, fish, wordlist";
