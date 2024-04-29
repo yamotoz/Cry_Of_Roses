@@ -5,10 +5,10 @@
 
 
 ## Installation
- - [] git clone https://github.com/yamotoz/Cry_Of_Roses
- - []cd Cry_Of_Roses
- - []chmod +x Cry_Of_Roses
- - []bash Cry_of_Roses.sh
+ - git clone https://github.com/yamotoz/Cry_Of_Roses
+ - cd Cry_Of_Roses
+ - chmod +x Cry_Of_Roses
+ - bash Cry_of_Roses.sh
 
 
 
