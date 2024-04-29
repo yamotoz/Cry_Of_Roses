@@ -3,8 +3,6 @@
 -  This is a script that I made for personal use and to share with the community, it will install the best tools for
 web attacks both fuzzing and directory enumeration and wordlists 
 
--  I do not take responsibility for the **misuse of the program.** This is a script for legal use and to study the programming and pentest area, never use the installed tools to **harm**, **destroy**, **adulterate**, **tarnish** or **belittle anyone's image**
-
 -  A big kiss and a big hug for you and thank you for enjoying my script.
 
 
@@ -103,6 +101,11 @@ bash Cry_of_Roses.sh
 - [x]  To change the proxy settings in Firefox, you can use ProtonVPN, Whonix, VPNBook, or the Urban VPN extension.
 - [x]  Auto_Tor_IP_changer
 - [x]  whoami-project
+
+## Information
+-  I do not take responsibility for the **misuse of the program.** This is a script for legal use and to study the programming and pentest area, never use the installed tools to **harm**, **destroy**, **adulterate**, **tarnish** or **belittle anyone's image**
+
+-  Let it be known that I hereby extend my full support and leadership to the creators of the scripts utilized herein, and I attribute **ALL** credits to them. In this script, my sole endeavor lies in their combined utilization to broaden the understanding of vulnerabilities within the pertinent website that the user shall visit.
 
 
      __ ,                        __ ,                 
