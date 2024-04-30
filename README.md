@@ -1,4 +1,7 @@
 ## Cry of Roses
+ <img src="https://img.shields.io/badge/Status-Beta-orange"> <img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"><img src="https://img.shields.io/badge/Download-Now-green">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"  height=30 width=40 />
+            
 
 -  This is a script that I made for personal use and to share with the community, it will install the best tools for
 web attacks both fuzzing and directory enumeration and wordlists 
