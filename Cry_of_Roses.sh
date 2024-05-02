@@ -348,6 +348,8 @@ cd dirb_subs_discorver;
 wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/URLs/urls-wordpress-3.3.1.txt; 
 wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/directory-list-2.3-big.txt; 
 wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/DNS/subdomains-top1million-110000.txt;
+wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/directory-list-2.3-medium.txt;
+wget https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/directory-list-2.3-small.txt;
 cd /root/wordlist; 
 gzip -d /usr/share/wordlists/rockyou.txt.gz; 
 cp /usr/share/wordlists/rockyou.txt /root/wordlist;
