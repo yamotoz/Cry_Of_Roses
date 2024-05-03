@@ -87,8 +87,8 @@ sleep 0.2;
 echo "                                  ##1                                      ";  
 sleep 0.3;  
 var="";
-read -p "deseja atualizar o sistema?(sim ou y)" var;
-if [ "$var" = "sim" ] || [ "$var" = "y" ] ; then 
+read -p "do you want update your system?(yes or y)" var;
+if [ "$var" = "yes" ] || [ "$var" = "y" ] ; then 
 echo -e "\e[32m █▀▀█ ▀▀█▀▀ █──█ █▀▀█ █── ─▀─ ▀▀█ █▀▀█ █▀▀▄ █▀▀▄ █▀▀█ 　 █▀▀ ─▀─ █▀▀ ▀▀█▀▀ █▀▀ █▀▄▀█ █▀▀█"; 
 echo " █▄▄█ ──█── █──█ █▄▄█ █── ▀█▀ ▄▀─ █▄▄█ █──█ █──█ █──█ 　 ▀▀█ ▀█▀ ▀▀█ ──█── █▀▀ █─▀─█ █▄▄█"; 
 echo " ▀──▀ ──▀── ─▀▀▀ ▀──▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀──▀ ▀──▀ ▀▀▀─ ▀▀▀▀ 　 ▀▀▀ ▀▀▀ ▀▀▀ ──▀── ▀▀▀ ▀───▀ ▀──▀";
@@ -107,7 +107,7 @@ insta="";
 read -p "Can I begin the installation?????? y/n:" insta;
 if [ "$insta" = "y" ] || [ "$insta" = "Y" ]; then
 cd /root;
-echo "criando as pastas vuln, anonimato, domain, ozint, fish, wordlist";
+echo "Making files, vuln, anonimato, domain, ozint, fish, wordlist";
 mkdir /root/vuln anonimato domain ozint phish wordlist fuzz;
 echo ".";
 sleep 0.5;
@@ -214,6 +214,10 @@ chmod +x install.sh;
 xdotool type "y";
 xdotool key Return;
 cd ..;
+git clone https://github.com/americo/sqlifinder;
+cd sqlifinder;
+pip3 install -r requirements.txt;
+cd ..;
 git clone https://github.com/skavngr/rapidscan.git; 
 cd rapidscan; 
 apt-get install dnswalk -y;
@@ -258,6 +262,7 @@ echo "█▀▀█ █▀▀▄ █▀▀█ █▀▀▄ ░▀░ █▀▄▀
 echo "█▄▄█ █░░█ █░░█ █░░█ ▀█▀ █░▀░█ █▄▄█ ░░█░░ █░░█ ";
 echo "▀░░▀ ▀░░▀ ▀▀▀▀ ▀░░▀ ▀▀▀ ▀░░░▀ ▀░░▀ ░░▀░░ ▀▀▀▀ ";
 git clone https://github.com/FDX100/Auto_Tor_IP_changer.git; 
+apt-get install proxychains4 -y;
 git clone https://github.com/owerdogan/whoami-project; 
 git clone sudo apt update -y; 
 sudo apt install tar tor curl python3 python3-scapy network-manager -y;

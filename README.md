@@ -73,6 +73,7 @@ bash Cry_of_Roses.sh
 - [x] magic recon
 - [x] VulneX
 - [x] Log sensor
+- [x] sqlifinder
 
 
 ## ♠️FUZZ
