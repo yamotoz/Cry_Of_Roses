@@ -74,6 +74,7 @@ bash Cry_of_Roses.sh
 - [x] VulneX
 - [x] Log sensor
 - [x] sqlifinder
+- [x] OpenRedireX
 
 
 ## ♠️FUZZ
@@ -105,6 +106,7 @@ bash Cry_of_Roses.sh
 - [x]  To change the proxy settings in Firefox, you can use ProtonVPN, Whonix, VPNBook, or the Urban VPN extension.
 - [x]  Auto_Tor_IP_changer
 - [x]  whoami-project
+- [x]  config proxychains
 
 ## Information
 -  I do not take responsibility for the **misuse of the program.** This is a script for legal use and to study the programming and pentest area, never use the installed tools to **harm**, **destroy**, **adulterate**, **tarnish** or **belittle anyone's image**
