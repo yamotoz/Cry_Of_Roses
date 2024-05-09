@@ -280,6 +280,7 @@ apt-get install tor -y;
 apt-get install proxychains -y;
 cd /etc;
 rm proxychains.conf;
+wget https://raw.githubusercontent.com/yamotoz/Cry_Of_Roses/main/proxichains.conf;
 sleep 2;
 echo "█▀▀ █ █▄░█ █ █▀ █░█";
 echo "█▀░ █ █░▀█ █ ▄█ █▀█";
